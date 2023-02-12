@@ -1,3 +1,24 @@
 site_name: 画像生成wiki
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  language: ja
+  font:
+    text: Kosugi Maru
+  features:
+    - header.autohide
+    - search.share
+    - search.suggest
+    - navigation.tabs
+    - navigation.top
+plugins:
+  - search:
+      lang: ja
