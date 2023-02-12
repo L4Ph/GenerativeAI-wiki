@@ -14,8 +14,9 @@ jobs:
       - name: Check out wiki repo
         uses: actions/checkout@v3
         with:
-          repository: "https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki.md.git"
-          path: docs
+          submodules: recursive
+      - name: Update submodules
+        run: git submodule update --init
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
