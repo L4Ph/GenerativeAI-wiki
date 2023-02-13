@@ -2,24 +2,49 @@ site_name: 画像生成wiki
 theme:
   name: material
   palette:
-    - scheme: default
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: purple
+      accent: pink
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/brightness-4
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-2
-        name: Switch to light mode
+        name: Switch to system preference
+
   language: ja
   font:
-    text: Kosugi Maru
+    text: IBM Plex Sans JP
+
   features:
     - header.autohide
-    - search.share
     - search.suggest
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
     - navigation.top
     - content.code.copy
+    - content.action.edit
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
@@ -38,5 +63,11 @@ repo_url: https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki
 repo_name: GenerativeAI-wiki
 
 plugins:
+  - offline:
+      enabled: !ENV
   - search:
       lang: ja
+  - git-revision-date-localized:
+      enabled: !ENV
+      type: datetime
+      enable_creation_date: true
