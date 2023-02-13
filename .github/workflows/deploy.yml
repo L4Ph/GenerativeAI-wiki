@@ -11,12 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Check out wiki repo
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-      - name: Update submodules
-        run: git submodule update --init
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
