@@ -1,32 +1,21 @@
 site_name: 画像生成wiki
+site_url: https://katsuyuki-karasawa.github.io/GenerativeAI-wiki
 theme:
   name: material
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      primary: purple
-      accent: pink
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      primary: purple
-      accent: pink
+    - scheme: default
+      accent: blue
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: blue
-      accent: light blue
       toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+        icon: material/weather-sunny
+        name: Switch to light mode
 
   language: ja
   font:
@@ -59,12 +48,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   
-repo_url: https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki
 repo_name: GenerativeAI-wiki
+repo_url: https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki
 
 plugins:
-  - offline:
-      enabled: !ENV
+  - offline
   - search:
       lang: ja
   - git-revision-date-localized:

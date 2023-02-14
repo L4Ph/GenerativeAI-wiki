@@ -4,7 +4,7 @@
 基本的にローカルのリソースを用いて画像生成をするGUIツール  
 各repoで特色が違う 
 
-- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) → [解説](./stable-diffusion-webui/usage.md)
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) → [解説](./stable-diffusion-webui/index.md)
 - [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)  
 - [Sygil-Dev/sygil-webui](https://github.com/Sygil-Dev/sygil-webui)  
 
@@ -19,7 +19,7 @@
 ## Google Colaboratory
 Google社製の[Google Colaboratory](https://colab.research.google.com)というクラウドリソースを活用したツール  
 複雑な環境構築不要、ブラウザから実行可能、無料でも高性能(NVIDIA® Tesla® T4 GPU)と夢のようなツール  
-しかし、利用時間などの制限もあるため、それらを考慮したくない方は[ローカル](##ローカル)のほうがよい  
+しかし、利用時間などの制限もあるため、それらを考慮したくない方は[ローカル](#_1)のほうがよい  
 お試し/入門者/性能不足の方向け
 
 - [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab)
