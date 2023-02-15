@@ -59,3 +59,15 @@ plugins:
       enabled: !ENV
       type: datetime
       enable_creation_date: true
+      
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/Katsuyuki.Karasawa.io
+      name: Facebook
+      
+    - icon: fontawesome/brands/github
+      link: https://github.com/Katsuyuki-Karasawa
+      name: GitHub
+      
