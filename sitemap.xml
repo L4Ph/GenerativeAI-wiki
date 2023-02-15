@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/index.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/WebUI/index.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/WebUI/InvokeAI/index.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/WebUI/stable-diffusion-webui/index.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/WebUI/stable-diffusion-webui/commandline_args.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://katsuyuki-karasawa.github.io/GenerativeAI-wiki/Word/index.html</loc>
+         <lastmod>2023-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
