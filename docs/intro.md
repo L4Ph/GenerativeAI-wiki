@@ -1,4 +1,4 @@
-# Home
+# ホーム
 ## 編集方法
 ### Required
  - GitHubアカウント
