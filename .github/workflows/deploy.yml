@@ -1,22 +1,42 @@
-name: ci 
+name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
-      - master 
-permissions:
-  contents: write
+      - master
+      - main 
+
 jobs:
-  deploy:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          python-version: 3.x
-      - uses: actions/cache@v2
+          node-version: latest
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn
+      - name: Build website
+        run: yarn run build
+
+      - uses: actions/upload-pages-artifact@v1
         with:
-          key: ${{ github.ref }}
-          path: .cache
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: mkdocs gh-deploy --force
+          path: build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
