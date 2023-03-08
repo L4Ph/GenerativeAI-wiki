@@ -26,18 +26,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-module.exports = {
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
-    localeConfigs: {
-      ja: {
-        label: '日本語',
-        direction: 'ltr',
-      },
-    },
   },
-};
 
   presets: [
     [
@@ -83,7 +75,6 @@ module.exports = {
             position: 'left',
             label: 'Documents',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki',
             label: 'GitHub',
@@ -119,10 +110,6 @@ module.exports = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
             ],
           },
         ],

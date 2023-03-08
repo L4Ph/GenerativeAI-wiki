@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.WebUI一覧": {
+    "message": "WebUI一覧",
+    "description": "The label for category WebUI一覧 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.stable-diffusion-webui": {
+    "message": "stable-diffusion-webui",
+    "description": "The label for category stable-diffusion-webui in sidebar tutorialSidebar"
+  }
+}
