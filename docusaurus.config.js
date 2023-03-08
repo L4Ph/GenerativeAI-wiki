@@ -75,7 +75,6 @@ const config = {
             position: 'left',
             label: 'Documents',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki',
             label: 'GitHub',
@@ -111,10 +110,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
             ],
           },
         ],
