@@ -20,13 +20,13 @@ Gradioというフレームワークを使用しているためUIには多少難
 この段階ですでに使いたいドライブがある場合はフォルダごと移動させる。  
 展開したあとに、このようなファイル構成になっていれば大丈夫です。  
 ![](./images/folder.png)
-3. `environment.bat`というファイルがあるので実行する。  
+3. `run.bat`というファイルがあるので実行する。  
 このファイルの実行が終えた時点ですでに環境が整っています。
 4. [好きなモデルを使用する](#_3)からモデルのインストールを行います。 
-5. `run.bat`を実行します。  
+5. 再度`run.bat`を実行します。  
 
-時間がかかるので少し待ちましょう。  
-モデルがない場合は
+時間がかかるので少し待ちましょう。   
+モデルがない場合は  
 :::caution
 Can't run without a checkpoint. Find and place a .ckpt or .safetensors file into any of those locations. The program will exit.  
 checkpointがないと実行できません。 .ckptまたは.safetensorsファイルを見つけて、そのいずれかを配置します。プログラムを終了します。
