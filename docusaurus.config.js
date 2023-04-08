@@ -44,13 +44,7 @@ const config = {
           editUrl:
             'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki/tree/main/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -81,15 +75,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documents',
+            title: 'ドキュメント',
             items: [
               {
                 label: 'Home',
-                to: '/docs/intro',
+                to: '/',
               },
               {
                 label: 'Web UI',
-                to: '/docs/WebUI'
+                to: '/WebUI'
               },
             ],
           },

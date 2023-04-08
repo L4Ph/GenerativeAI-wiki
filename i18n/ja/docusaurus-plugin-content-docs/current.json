@@ -10,5 +10,9 @@
   "sidebar.tutorialSidebar.category.stable-diffusion-webui": {
     "message": "stable-diffusion-webui",
     "description": "The label for category stable-diffusion-webui in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.LoRA": {
+    "message": "LoRA",
+    "description": "The label for category LoRA in sidebar tutorialSidebar"
   }
 }

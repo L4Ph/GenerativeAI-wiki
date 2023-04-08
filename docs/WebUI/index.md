@@ -5,8 +5,9 @@
 各repoで特色が違う 
 
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) → [解説](./stable-diffusion-webui/index.md)
-- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)  
+- [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) → [解説](./InvokeAI/index.md)  
 - [Sygil-Dev/sygil-webui](https://github.com/Sygil-Dev/sygil-webui)  
+- [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 ## Docker
 コンテナ技術などを用いて環境の共有を行うため、ユーザーの環境に起因するバグが少ない。  
