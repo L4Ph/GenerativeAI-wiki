@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Katsuyuki', // Usually your GitHub org/user name.
+  organizationName: 'Katsuyuki-Karasawa', // Usually your GitHub org/user name.
   projectName: 'GenerativeAI-wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -37,6 +37,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -66,15 +67,9 @@ const config = {
         title: 'GenerativeAI Wiki',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documents',
-          },
           {
             href: 'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki',
             label: 'GitHub',
@@ -103,13 +98,21 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/Ktsyk_Krsw',
               },
+              {
+                label: 'Facebook',
+                href: 'https://facebook.com/Katsuyuki.Karasawa.io'
+              }
             ],
           },
           {
             title: 'More',
             items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Katsuyuki-Karasawa/GenerativeAI-wiki'
+              }
             ],
           },
         ],
